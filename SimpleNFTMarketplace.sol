@@ -10,6 +10,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol";
 
 /// @title NFT Marketplace Project
 /// @author Muhammad Farooq(Blockchain Developer)
+///BNB address = 0xe8adc554a1b33505117ab7b2a488322f9a06eedf
 contract myERC721 is ERC721URIStorage, Ownable{
     IERC20 BNB;
 
